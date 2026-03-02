@@ -6,7 +6,9 @@
 
 ## Introduction
 
-This project contains the source code of Minecraft Legacy Console Edition v1.3.0494.0, with some fixes and improvements applied.
+This project contains the source code of Minecraft Legacy Console Edition v1.3.0494.0 from https://archive.org/details/minecraft-legacy-console-edition-source-code, with some fixes and improvements applied
+
+[Download](https://github.com/smartcmd/MinecraftConsoles/releases/tag/nightly)
 
 ## Features
 
@@ -14,8 +16,7 @@ This project contains the source code of Minecraft Legacy Console Edition v1.3.0
 - Added support for keyboard and mouse input
 - Added fullscreen mode support (toggle using F11)
 - Disabled V-Sync for better performance
-- Auto-detect native monitor resolution with DPI awareness, resulting in sharper visuals on high-resolution displays
-- Full support for keyboard and mouse input
+- Device's screen resolution will be used as the game resolution instead of using a fixed resolution (1920x1080)
 
 ## Controls (Keyboard & Mouse)
 
@@ -35,6 +36,8 @@ This project contains the source code of Minecraft Legacy Console Edition v1.3.0
 - **Select Item**: `Mouse Wheel` or keys `1` to `9`
 - **Accept or Decline Tutorial hints**: `Enter` to accept and `B` to decline
 - **Host Options**: `TAB`
+- **Toggle Debug Info**: `F3`
+- **Open Debug Overlay**: `F4`
 
 ## Build & Run
 
